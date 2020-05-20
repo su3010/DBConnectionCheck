@@ -17,18 +17,21 @@ namespace DBConnectionCheck
             Console.WriteLine("Password");
             String strPassword = Console.ReadLine();
 
-            using (SqlConnection con = new SqlConnection()) { 
+            SqlConnection con = new SqlConnection();
             con.ConnectionString = $"Server={ServerName}; Initial Catalog={DatabaseName}; uid={UserName}; pwd={strPassword};";
             Console.WriteLine(con.ConnectionString);
                 try
                 {
                     con.Open();
+                    Console.WriteLine("Connection Opend");
                 }
                 catch(Exception ex)
                 {
+                    Console.WriteLine("Excption");
                     Console.WriteLine(ex.Message);
                 }
-        }
+        
+
             Console.Read();
         }
 
