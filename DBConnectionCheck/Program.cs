@@ -18,10 +18,11 @@ namespace DBConnectionCheck
             String strPassword = Console.ReadLine();
 
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = $"Server={ServerName}; Initial Catalog={DatabaseName}; uid={UserName}; pwd={strPassword};";
+            con.ConnectionString = $"Server={ServerName}; Initial Catalog={DatabaseName}; uid={UserName}; pwd={strPassword};Connect Timeout=8;";
             Console.WriteLine(con.ConnectionString);
-                try
-                {
+            Console.WriteLine("Connectiing....");
+            try
+                {                    
                     con.Open();
                     Console.WriteLine("Connection Opend");
                 }
