@@ -1,0 +1,10 @@
+C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\bin\Release\netcoreapp2.1\DBConnectionCheck.deps.json
+C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\bin\Release\netcoreapp2.1\DBConnectionCheck.runtimeconfig.json
+C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\bin\Release\netcoreapp2.1\DBConnectionCheck.runtimeconfig.dev.json
+C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\bin\Release\netcoreapp2.1\DBConnectionCheck.dll
+C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\bin\Release\netcoreapp2.1\DBConnectionCheck.pdb
+C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\obj\Release\netcoreapp2.1\DBConnectionCheck.csproj.CoreCompileInputs.cache
+C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\obj\Release\netcoreapp2.1\DBConnectionCheck.AssemblyInfoInputs.cache
+C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\obj\Release\netcoreapp2.1\DBConnectionCheck.AssemblyInfo.cs
+C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\obj\Release\netcoreapp2.1\DBConnectionCheck.dll
+C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\obj\Release\netcoreapp2.1\DBConnectionCheck.pdb
