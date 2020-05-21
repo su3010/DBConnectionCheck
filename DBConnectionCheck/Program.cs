@@ -10,7 +10,8 @@ namespace DBConnectionCheck
         static void Main(string[] args)
         {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-            //ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
+            //ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls11 ;
+            //ServicePointManager.SecurityProtocol =  SecurityProtocolType.Tls;
 
             Console.WriteLine("ServerName?");
             String ServerName = Console.ReadLine();
@@ -39,36 +40,6 @@ namespace DBConnectionCheck
 
             Console.Read();
         }
-
-        static SecureString ReadPassword()
-        {
-            SecureString password = new SecureString();
-            Console.WriteLine("Enter password: ");
-
-            ConsoleKeyInfo nextKey = Console.ReadKey(true);
-
-            while (nextKey.Key != ConsoleKey.Enter)
-            {
-                if (nextKey.Key == ConsoleKey.Backspace)
-                {
-                    if (password.Length > 0)
-                    {
-                        password.RemoveAt(password.Length - 1);
-                        // erase the last * as well
-                        Console.Write(nextKey.KeyChar);
-                        Console.Write(" ");
-                        Console.Write(nextKey.KeyChar);
-                    }
-                }
-                else
-                {
-                    password.AppendChar(nextKey.KeyChar);
-                    Console.Write("*");
-                }
-                nextKey = Console.ReadKey(true);
-            }
-            password.MakeReadOnly();
-            return password;
-        }
+      
     }
 }

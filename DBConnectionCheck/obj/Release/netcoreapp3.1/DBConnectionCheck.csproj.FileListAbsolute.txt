@@ -25,7 +25,6 @@ C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\bi
 C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\obj\Release\netcoreapp3.1\DBConnectionCheck.csprojAssemblyReference.cache
 C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\obj\Release\netcoreapp3.1\DBConnectionCheck.AssemblyInfoInputs.cache
 C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\obj\Release\netcoreapp3.1\DBConnectionCheck.AssemblyInfo.cs
 C:\Users\muhammad.awaisakram\source\repos\DBConnectionCheck\DBConnectionCheck\obj\Release\netcoreapp3.1\DBConnectionCheck.csproj.CoreCompileInputs.cache
